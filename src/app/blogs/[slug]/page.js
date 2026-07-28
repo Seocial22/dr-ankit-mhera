@@ -3,12 +3,24 @@ import path from "path";
 import Link from "next/link";
 import Image from "next/image";
 
+const SITE_URL = "https://drankitmehra.com";
+const PUBLISHER_NAME = "Dr. Ankit Mehra";
+const PUBLISHER_LOGO = "https://drankitmehra.com/images/logo.jpeg";
+const DEFAULT_IMAGE = "/images/placeholder.jpg";
+
 // Function to read blogs data
 function getBlogs() {
   const filePath = path.join(process.cwd(), "public", "blogs.json");
   const fileData = fs.readFileSync(filePath, "utf-8");
   const blogs = JSON.parse(fileData);
   return blogs;
+}
+
+// Helper: turn a relative or absolute image path into a guaranteed absolute URL
+function toAbsoluteUrl(url) {
+  if (!url) return `${SITE_URL}${DEFAULT_IMAGE}`;
+  if (url.startsWith("http://") || url.startsWith("https://")) return url;
+  return `${SITE_URL}${url.startsWith("/") ? "" : "/"}${url}`;
 }
 
 // Generate metadata for each blog page
@@ -25,21 +37,27 @@ export async function generateMetadata({ params }) {
     };
   }
 
+  const description =
+    blog.metaDescription || blog.excerpt || blog.content.substring(0, 160);
+  const absoluteImage = toAbsoluteUrl(blog.image);
+  const canonicalUrl = blog.canonicalUrl || `${SITE_URL}/blogs/${blog.slug}`;
+
   return {
     title: `${blog.title}`,
-    description:
-      blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
+    description,
     keywords: blog.tags,
 
     openGraph: {
       title: blog.title,
-      description:
-        blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
+      description,
       type: "article",
-      url: `https://drankitmehra.com//blogs/${blog.slug}`,
+      url: `${SITE_URL}/blogs/${blog.slug}`,
+      publishedTime: blog.date,
+      modifiedTime: blog.updatedAt || blog.date,
+      authors: [blog.author || "Dr. Ankit Mehra"],
       images: [
         {
-          url: blog.image || "/images/placeholder.jpg",
+          url: absoluteImage,
           width: 1200,
           height: 630,
           alt: blog.alt || blog.title,
@@ -47,14 +65,13 @@ export async function generateMetadata({ params }) {
       ],
     },
     alternates: {
-      canonical: blog.conincalUrl,
+      canonical: canonicalUrl,
     },
     twitter: {
       card: "summary_large_image",
       title: blog.title,
-      description:
-        blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
-      images: [blog.image || "/images/placeholder.jpg"],
+      description,
+      images: [absoluteImage],
     },
     robots: {
       index: true,
@@ -66,10 +83,10 @@ export async function generateMetadata({ params }) {
       },
     },
     other: {
-      "application-name": "Dr.Ankit Mehra",
-      author: "Dr.Ankit Mehra",
-      Publisher: "Dr.Ankit Mehra",
-      "publisher-url": "https://drankitmehra.com",
+      "application-name": PUBLISHER_NAME,
+      author: PUBLISHER_NAME,
+      Publisher: PUBLISHER_NAME,
+      "publisher-url": SITE_URL,
       generator: "Next.js",
       "theme-color": "#ffffff",
     },
@@ -166,7 +183,7 @@ export default async function SingleBlogPage({ params }) {
               Could not find blog with slug: {slug}
             </p>
             <Link
-              href="/blog"
+              href="/blogs"
               className="inline-block bg-gradient-to-br from-blue-900 via-blue-800 to-teal-600 text-white px-4 py-2 rounded-lg hover:opacity-90 transition duration-300"
             >
               Back to Blogs
@@ -183,8 +200,51 @@ export default async function SingleBlogPage({ params }) {
     day: "numeric",
   });
 
+  // ---- Article JSON-LD (Schema.org) ----
+  const absoluteImageUrl = toAbsoluteUrl(blog.image);
+  const canonicalUrl = blog.canonicalUrl || `${SITE_URL}/blogs/${blog.slug}`;
+  const description =
+    blog.metaDescription || blog.excerpt || blog.content.substring(0, 160);
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${SITE_URL}/blogs/${blog.slug}#article`,
+    headline: blog.title,
+    description,
+    image: [absoluteImageUrl],
+    author: {
+      "@type": "Person",
+      name: blog.author,
+      url: SITE_URL,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: PUBLISHER_NAME,
+      url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: PUBLISHER_LOGO,
+      },
+    },
+    datePublished: blog.date,
+    dateModified: blog.updatedAt || blog.date,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": canonicalUrl,
+    },
+    inLanguage: "en",
+  };
+
   return (
     <article className="min-h-screen bg-gradient-to-b from-blue-50 to-teal-50 lg:pt-5 pt-5">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleSchema),
+        }}
+      />
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="relative mt-6 lg:mt-0 aspect-[3/2] w-full">
           <Image
