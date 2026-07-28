@@ -1,20 +1,20 @@
 import AboutDoctor from "@/components/AboutDoctor";
 import AboutDoctorSection from "@/components/AboutDoctorSection";
 import ExpertCards from "@/components/ExpertCards";
- 
- 
+
+
 import DermatologyBenefits from "@/components/DermatologyBenefits";
 
- 
- 
- 
+
+
+
 import GallerySection from "@/components/GallerySection";
- 
+
 import HeroSection from "@/components/HeroSection";
 import PatientReviews from "@/components/PatientReviews";
- 
- 
- 
+
+
+
 import WhyChooseSection from "@/components/WhyChooseSection";
 
 export const metadata = {
@@ -108,7 +108,7 @@ const structuredData = {
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+91-9697041111",
-        
+
         contactType: "customer service",
         availableLanguage: ["English", "Hindi"],
       },
@@ -137,6 +137,12 @@ const structuredData = {
       "@type": "Physician",
       "@id": "https://drankitmehra.com/#physician",
       name: "Dr. Ankit Mehra",
+      image: {
+        "@type": "ImageObject",
+        url: "https://drankitmehra.com/images/home/dr-ankitmehra.jpeg",
+        width: 800,
+        height: 600
+      },
       givenName: "Ankit",
       familyName: "Mehra",
       honorificPrefix: "Dr.",
@@ -243,7 +249,7 @@ const structuredData = {
 
 
 export default function Home() {
-    const slides = [
+  const slides = [
     {
       id: 1,
       image: '/images/home/woman-beauty-clinic-face-treatment-scaled.png',
@@ -261,7 +267,7 @@ export default function Home() {
       image: '/images/home/head-leaning.png',
     },
   ];
-  
+
 
   return (
     <>
@@ -271,17 +277,17 @@ export default function Home() {
           __html: JSON.stringify(structuredData),
         }}
       />
-      <HeroSection  slides={slides}/>
+      <HeroSection slides={slides} />
       <AboutDoctorSection />
-      <AboutDoctor/>
-      <ExpertCards/>
-     <DermatologyBenefits/>
+      <AboutDoctor />
+      <ExpertCards />
+      <DermatologyBenefits />
       <WhyChooseSection />
-         <PatientReviews />
-       <GallerySection/>
-      
-   
-      
+      <PatientReviews />
+      <GallerySection />
+
+
+
     </>
   );
 }
