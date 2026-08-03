@@ -15,19 +15,19 @@
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.507.0",
     "next": "^16.1.6",
-    "react": "^19.1.0",
+    "react": "^19.2.8",
     "react-countup": "^6.5.3",
-    "react-dom": "^19.1.0",
+    "react-dom": "^19.2.8",
     "react-icons": "^5.5.0",
     "react-intersection-observer": "^9.16.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.3.3",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "eslint": "^9",
     "eslint-config-next": "^16.1.6",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4.3.3"
   }
 }
