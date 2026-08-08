@@ -23,7 +23,7 @@ export const metadata = {
       "Explore cutting-edge laser treatments for hair removal, skin resurfacing, scar reduction, and more. Safe and effective solutions.",
     images: [
       {
-        url: "/images/laser-epilation-hair-removal-therapy-scaled.jpg", // replace with actual image path
+        url: "/images/laser-epilation-hair-removal-therapy-scaled.webp", // replace with actual image path
         width: 1200,
         height: 630,
         alt: "Advanced Laser Treatments",
@@ -41,7 +41,7 @@ export const metadata = {
     title: "Advanced Laser Treatments for Skin and Hair | Dr. Ankit Mehra",
     description:
       "Explore cutting-edge laser treatments for hair removal, skin resurfacing, scar reduction, and more. Safe and effective solutions.",
-    images: ["/images/laser-epilation-hair-removal-therapy-scaled.jpg"], // replace with actual image path
+    images: ["/images/laser-epilation-hair-removal-therapy-scaled.webp"], // replace with actual image path
   },
   robots: {
     index: true,
@@ -70,7 +70,7 @@ const SkinTreatmentsPage = () => {
       id: 1,
       title: "Laser Hair Removal",
       description: "Target hair follicles to reduce unwanted hair with long-lasting results for multiple body areas",
-      image: "leaser-hair-romover.jpg", // Placeholder - replace with actual image
+      image: "leaser-hair-romover.webp", // Placeholder - replace with actual image
       features: ["Hair Reduction", "Long-term Results", "Multiple Body Areas"],
       url: "/laser-hair-removal"
     },
@@ -78,7 +78,7 @@ const SkinTreatmentsPage = () => {
       id: 2,
       title: "Laser Skin Resurfacing",
       description: "Remove damaged skin layers to treat wrinkles, uneven skin tone, and sun damage while promoting collagen growth",
-      image: "laserSkinResurfacing.jpg", // Placeholder - replace with actual image
+      image: "laserSkinResurfacing.webp", // Placeholder - replace with actual image
       features: ["Wrinkle Treatment", "Skin Tone Correction", "Sun Damage Repair", "Collagen Stimulation"],
       url: "/laser-skin-resurfacing"
     },
@@ -86,7 +86,7 @@ const SkinTreatmentsPage = () => {
       id: 3,
       title: "Laser Tattoo Removal",
       description: "Break down tattoo pigment with laser technology, allowing your body to gradually eliminate the ink",
-      image: "laserTattooRemoval.jpg", // Placeholder - replace with actual image
+      image: "laserTattooRemoval.webp", // Placeholder - replace with actual image
       features: ["Pigment Breakdown", "Gradual Removal", "Non-invasive"],
       url: "/laser-tattoo-removal"
     }

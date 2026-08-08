@@ -21,7 +21,7 @@ export const metadata = {
     title: "Dr. Kanti Meherda | Senior Gynecologist in Ajmer",
     description:
       "Specialist in antenatal care, gynecological surgeries, and fertility counseling at Janana Hospital, Ajmer.",
-    image: "https://yourwebsite.com/og-image.jpg",
+    image: "https://yourwebsite.com/og-image.webp",
   },
 };
 
@@ -32,7 +32,7 @@ const DoctorProfile = () => {
         {/* Doctor image section at the top */}
         <div className="bg-gray-100 p-6 flex flex-col items-center justify-center">
           <Image
-            src="/images/home/kanti-meherda.jpeg" // Replace with actual image path
+            src="/images/home/kanti-meherda.webp" // Replace with actual image path
             alt="Dr. Kanti Meherda"
             width={650}
             height={650}

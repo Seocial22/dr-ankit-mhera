@@ -32,7 +32,7 @@ export const metadata = {
       "Stay informed with the latest tips, trends, and expert advice on skin and hair care. Read insightful blogs from Dr. Ankit Mehra's team.",
     images: [
       {
-        url: "/images/WhatsApp-Image-2024-11-02-at-20.46.06-1.jpeg", // Replace with actual blog page image
+        url: "/images/WhatsApp-Image-2024-11-02-at-20.46.06-1.webp", // Replace with actual blog page image
         width: 800,
         height: 600,
         alt: "Dr. Ankit Mehra - Skin and Hair Care Blog",
@@ -50,7 +50,7 @@ export const metadata = {
     title: "Blog - Expert Skin and Hair Care Tips | Dr. Ankit Mehra",
     description:
       "Stay informed with the latest tips, trends, and expert advice on skin and hair care. Read insightful blogs from Dr. Ankit Mehra's team.",
-    images: ["/images/WhatsApp-Image-2024-11-02-at-20.46.06-1.jpeg"], // Replace with actual blog page image
+    images: ["/images/WhatsApp-Image-2024-11-02-at-20.46.06-1.webp"], // Replace with actual blog page image
   },
   robots: {
     index: true,

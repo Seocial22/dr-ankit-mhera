@@ -25,7 +25,7 @@ export const metadata = {
       "Reduce pigmentation and achieve a balanced, glowing complexion. Advanced treatments for dark spots, melasma, and uneven skin tone.",
     images: [
       {
-        url: "/images/woman-beauty-clinic-face-treatment-scaled.png",
+        url: "/images/woman-beauty-clinic-face-treatment-scaled.webp",
         width: 2560,
         height: 1707,
         alt: "Pigmentation Treatment - Dr. Ankit Mehra",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "Pigmentation Treatments for Even Skin Tone | Dr. Ankit Mehra",
     description:
       "Reduce pigmentation and achieve a balanced, glowing complexion. Advanced treatments for dark spots, melasma, and uneven skin tone.",
-    images: ["/images/woman-beauty-clinic-face-treatment-scaled.png"],
+    images: ["/images/woman-beauty-clinic-face-treatment-scaled.webp"],
   },
   robots: {
     index: true,
@@ -71,12 +71,12 @@ const SkinRejuvenationComponent = () =>
   const data = {
     images: [
       {
-        src: "/images/home/woman-beauty-clinic-face-treatment-scaled.png",
+        src: "/images/home/woman-beauty-clinic-face-treatment-scaled.webp",
         alt: "pigmentation-treatment",
         showOnMobile: true,
       },
       {
-        src: "/images/pigmentation-treatment.jpg",
+        src: "/images/pigmentation-treatment.webp",
         alt: "good pigmentation-treatment",
         showOnMobile: false,
       },

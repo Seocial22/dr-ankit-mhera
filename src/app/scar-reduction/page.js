@@ -25,7 +25,7 @@ export const metadata = {
       "Minimize scars and restore smooth skin with advanced scar reduction therapies. Proven techniques for acne scars, injury scars, and more.",
     images: [
       {
-        url: "/images/before-after-portrait-woman-retouched-scaled.jpg",
+        url: "/images/before-after-portrait-woman-retouched-scaled.webp",
         width: 2560,
         height: 1707,
         alt: "Scar Reduction Treatment - Before and After",
@@ -44,7 +44,7 @@ export const metadata = {
       "Effective Scar Reduction Treatments - Clear Skin | Dr. Ankit Mehra",
     description:
       "Minimize scars and restore smooth skin with advanced scar reduction therapies. Proven techniques for acne scars, injury scars, and more.",
-    images: ["/images/before-after-portrait-woman-retouched-scaled.jpg"],
+    images: ["/images/before-after-portrait-woman-retouched-scaled.webp"],
   },
   robots: {
     index: true,
@@ -72,12 +72,12 @@ const ScarReduction = () =>
   const data = {
     images: [
       {
-        src: "/images/home/before-after-portrait-woman-retouched-760x428.jpg",
+        src: "/images/home/before-after-portrait-woman-retouched-760x428.webp",
         alt: "Scar Reduction 1",
         showOnMobile: true,
       },
       {
-        src: "/images/scar-revision-before-after.jpg",
+        src: "/images/scar-revision-before-after.webp",
         alt: "Scar Reduction 2",
         showOnMobile: false,
       },

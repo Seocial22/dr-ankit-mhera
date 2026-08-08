@@ -23,7 +23,7 @@ export const metadata = {
       "Get personalized hair treatments for hair loss, thinning, and more. Restore your hair health with cutting-edge techniques at Dr. Ankit Mehra's clinic.",
     images: [
       {
-        url: "/images/high-angle-woman-getting-scalp-prp-treatment-scaled.jpg", // replace with actual path
+        url: "/images/high-angle-woman-getting-scalp-prp-treatment-scaled.webp", // replace with actual path
         width: 1200,
         height: 630,
         alt: "Advanced Hair Treatment at Dr. Ankit Mehra's Clinic",
@@ -41,7 +41,7 @@ export const metadata = {
     title: "Advanced Hair Treatments for All Hair Concerns | Dr. Ankit Mehra",
     description:
       "Get personalized hair treatments for hair loss, thinning, and more. Restore your hair health with cutting-edge techniques at Dr. Ankit Mehra's clinic.",
-    images: ["/images/high-angle-woman-getting-scalp-prp-treatment-scaled.jpg"], // replace with actual path
+    images: ["/images/high-angle-woman-getting-scalp-prp-treatment-scaled.webp"], // replace with actual path
   },
   robots: {
     index: true,
@@ -70,7 +70,7 @@ const SkinTreatmentsPage = () => {
       id: 1,
       title: "PRP Therapy",
       description: "Injecting your own platelet-rich plasma to promote follicle health and stimulate natural hair growth",
-      image: "high-angle-woman-getting-scalp-prp-treatment-1536x1022.jpg", // Placeholder - replace with actual image
+      image: "high-angle-woman-getting-scalp-prp-treatment-1536x1022.webp", // Placeholder - replace with actual image
       features: ["Follicle Health", "Natural Growth Stimulation", "Uses Your Own Plasma"],
       url: "/prp-therapy"
     },
@@ -78,7 +78,7 @@ const SkinTreatmentsPage = () => {
       id: 2,
       title: "Hair Loss Treatments",
       description: "Comprehensive approach using medications and therapies to slow hair loss, promote growth, and increase hair volume",
-      image: "mature-man-going-through-follicular-unit-extraction-process-1536x1024.jpg", // Placeholder - replace with actual image
+      image: "mature-man-going-through-follicular-unit-extraction-process-1536x1024.webp", // Placeholder - replace with actual image
       features: ["Slows Hair Loss", "Promotes Growth", "Increases Volume", "Medical Approach"],
       url: "/hair-loss-treatments"
     },
@@ -86,7 +86,7 @@ const SkinTreatmentsPage = () => {
       id: 3,
       title: "Scalp Micropigmentation",
       description: "Advanced cosmetic tattooing technique that simulates hair follicles to create the appearance of denser, fuller hair",
-      image: "mature-man-going-through-follicular-unit-extraction-process-1-1-1536x1024.jpg", // Placeholder - replace with actual image
+      image: "mature-man-going-through-follicular-unit-extraction-process-1-1-1536x1024.webp", // Placeholder - replace with actual image
       features: ["Cosmetic Tattooing", "Simulates Follicles", "Creates Fuller Appearance", "Non-surgical"],
       url: "/scalp-micropigmentation"
     }

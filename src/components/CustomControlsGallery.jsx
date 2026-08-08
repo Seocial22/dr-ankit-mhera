@@ -6,17 +6,17 @@ const DermatologyGallery = () => {
   
   // Array of image URLs
   const images = [
-    "/images/diseases/a1.jpg",
-    "/images/diseases/a2.jpg",
-    // "/images/diseases/a1.jpg",
-    "/images/diseases/a3.jpg",
-    // "/images/diseases/a4.jpg",
-    "/images/diseases/a5.jpg",
-    "/images/diseases/a6.jpg",
-    "/images/diseases/a7.jpg",
-    "/images/diseases/a8.jpg",
-    "/images/diseases/a9.jpg",
-    "/images/diseases/a10.jpg"
+    "/images/diseases/a1.webp",
+    "/images/diseases/a2.webp",
+    // "/images/diseases/a1.webp",
+    "/images/diseases/a3.webp",
+    // "/images/diseases/a4.webp",
+    "/images/diseases/a5.webp",
+    "/images/diseases/a6.webp",
+    "/images/diseases/a7.webp",
+    "/images/diseases/a8.webp",
+    "/images/diseases/a9.webp",
+    "/images/diseases/a10.webp"
   ];
   
   // Function to go to the next slide

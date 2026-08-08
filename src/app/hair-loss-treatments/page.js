@@ -23,7 +23,7 @@ export const metadata = {
       "Combat hair loss with proven treatments and personalized care. Regain confidence with tailored solutions at Dr. Ankit Mehra's clinic.",
     images: [
       {
-        url: "/images/mature-man-going-through-follicular-unit-extraction-process-scaled.jpg",
+        url: "/images/mature-man-going-through-follicular-unit-extraction-process-scaled.webp",
         width: 1200,
         height: 630,
         alt: "Hair Loss Treatment",
@@ -42,7 +42,7 @@ export const metadata = {
     description:
       "Combat hair loss with proven treatments and personalized care. Regain confidence with tailored solutions at Dr. Ankit Mehra's clinic.",
     images: [
-      "/images/mature-man-going-through-follicular-unit-extraction-process-scaled.jpg",
+      "/images/mature-man-going-through-follicular-unit-extraction-process-scaled.webp",
     ],
   },
   robots: {
@@ -71,12 +71,12 @@ const HairLossTreatments = () =>
   const data = {
     images: [
       {
-        src: "/images/home/mature-man-going-through-follicular-unit-extraction-process-1536x1024.jpg",
+        src: "/images/home/mature-man-going-through-follicular-unit-extraction-process-1536x1024.webp",
         alt: "Hair Loss Treatment 1",
         showOnMobile: true,
       },
       {
-        src: "/images/before-and-after-comparison-of-male-hair-regrowth-showcasing-the-effectiveness-of-a-hair-treatment-solution-photo.jpg",
+        src: "/images/before-and-after-comparison-of-male-hair-regrowth-showcasing-the-effectiveness-of-a-hair-treatment-solution-photo.webp",
         alt: "Hair Loss Treatment 2",
         showOnMobile: false,
       },

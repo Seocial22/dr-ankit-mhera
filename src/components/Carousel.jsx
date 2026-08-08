@@ -8,12 +8,12 @@ const Carousel = () => {
 
   // Array of image URLs
   const images = [
-    "/images/diseases/m1.jpg",
-    "/images/diseases/m2.jpg",
-    "/images/diseases/m3.jpg",
-    "/images/diseases/m4.jpg",
-    "/images/diseases/m5.jpg",
-    "/images/diseases/m6.jpg",
+    "/images/diseases/m1.webp",
+    "/images/diseases/m2.webp",
+    "/images/diseases/m3.webp",
+    "/images/diseases/m4.webp",
+    "/images/diseases/m5.webp",
+    "/images/diseases/m6.webp",
   ];
 
   // Function to go to the next slide

@@ -104,7 +104,7 @@ const AboutUsSection = () => {
                                         }}
                                     >
                                         <Image
-                                            src="/images/checkmark.png"
+                                            src="/images/checkmark.webp"
                                             alt="check icone"
                                             width={20}
                                             height={20}
@@ -121,7 +121,7 @@ const AboutUsSection = () => {
                                     variants={badgeVariants}
                                 >
                                     <Image
-                                        src="/images/doctor.png"
+                                        src="/images/doctor.webp"
                                         alt="Doctor icone"
                                         width={60}
                                         height={60}

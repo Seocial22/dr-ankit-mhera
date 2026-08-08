@@ -25,7 +25,7 @@ export const metadata = {
       "Rejuvenate your skin with advanced laser skin resurfacing. Reduce wrinkles, scars, and blemishes with precise and effective laser technology.",
     images: [
       {
-        url: "/images/23487-1024x683.jpg",
+        url: "/images/23487-1024x683.webp",
         width: 1200,
         height: 630,
         alt: "Laser Skin Resurfacing Treatment in Ajmer",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "Laser Skin Resurfacing Treatments in Ajmer | Dr. Ankit Mehra",
     description:
       "Rejuvenate your skin with advanced laser skin resurfacing. Reduce wrinkles, scars, and blemishes with precise and effective laser technology.",
-    images: ["/images/23487-1024x683.jpg"],
+    images: ["/images/23487-1024x683.webp"],
   },
   robots: {
     index: true,
@@ -71,12 +71,12 @@ const LaserSkinResurfacing = () =>
   const data = {
     images: [
       {
-        src: "/images/home/laserSkinResurfacing.jpg",
+        src: "/images/home/laserSkinResurfacing.webp",
         alt: "Laser Skin Resurfacing 1",
         showOnMobile: true,
       },
       {
-        src: "/images/Unlocking-the-Basics-of-CO2-Laser-Skin-Resurfacing.jpg",
+        src: "/images/Unlocking-the-Basics-of-CO2-Laser-Skin-Resurfacing.webp",
         alt: "Laser Skin Resurfacing 2",
         showOnMobile: false,
       },

@@ -11,7 +11,7 @@ const CardGrid = () => {
     const cards = [
         {
             title: 'Dr. Apurva Mehra',
-            img: '/images/home/apurva-mehra.jpeg',
+            img: '/images/home/apurva-mehra.webp',
             text: [
                 { label: "Qualifications:", value: "MBBS, MD (Neuropsychiatry)" },
                 { label: "Experience:", value: "3+3 Years Residency Experience" },
@@ -21,7 +21,7 @@ const CardGrid = () => {
         },
         {
             title: 'Dr. Anju Depan',
-            img: '/images/home/anju-depan.jpg',
+            img: '/images/home/anju-depan.webp',
             text: [
                 { label: "Qualifications:", value: "MBBS, MS (Obstetrics & Gynaecology)" },
                 { label: "Education:", value: "MBBS – 2006, MS – 2013, SN Medical College" },
@@ -33,7 +33,7 @@ const CardGrid = () => {
         },
         {
             title: 'Dr. Kanti Meherda',
-            img: '/images/home/kanti-meherda.jpeg',
+            img: '/images/home/kanti-meherda.webp',
             text: [
                 { label: "Qualifications:", value: "MS Gynecology" },
                 { label: "Experience:", value: "Senior Professor & Unit Head" },
@@ -43,7 +43,7 @@ const CardGrid = () => {
         },
         {
             title: 'Dr. Ashok Meherda',
-            img: '/images/home/ashok-meherda.jpeg',
+            img: '/images/home/ashok-meherda.webp',
             text: [
                 { label: "Qualifications:", value: "MD, Skin & VD" },
                 { label: "Experience:", value: "Senior Professor & Head" },

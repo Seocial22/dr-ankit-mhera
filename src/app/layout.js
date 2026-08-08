@@ -10,6 +10,11 @@ import NewYearPopup from "@/components/NewYearPopup";
 
 
 export const metadata = {
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+  },
   metadataBase: new URL('https://drankitmehra.com'),
 };
 

@@ -25,7 +25,7 @@ export const metadata = {
       "Revitalize your skin and hair with PRP therapy. Natural and effective treatments for hair growth and glowing, youthful skin.",
     images: [
       {
-        url: "/images/high-angle-woman-getting-scalp-prp-treatment-scaled.jpg",
+        url: "/images/high-angle-woman-getting-scalp-prp-treatment-scaled.webp",
         width: 1200,
         height: 630,
         alt: "PRP Therapy for Hair and Skin",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "PRP Therapy for Hair Restoration and Skin | Dr. Ankit Mehra",
     description:
       "Revitalize your skin and hair with PRP therapy. Natural and effective treatments for hair growth and glowing, youthful skin.",
-    images: ["/images/high-angle-woman-getting-scalp-prp-treatment-scaled.jpg"],
+    images: ["/images/high-angle-woman-getting-scalp-prp-treatment-scaled.webp"],
   },
   robots: {
     index: true,
@@ -71,12 +71,12 @@ const PRPTherapy = () =>
   const data = {
     images: [
       {
-        src: "/images/home/high-angle-woman-getting-scalp-prp-treatment-1536x1022.jpg",
+        src: "/images/home/high-angle-woman-getting-scalp-prp-treatment-1536x1022.webp",
         alt: "PRP Therapy 1",
         showOnMobile: true,
       },
       {
-        src: "/images/PRP-result-4-final.jpg",
+        src: "/images/PRP-result-4-final.webp",
         alt: "PRP Therapy 2",
         showOnMobile: false,
       },

@@ -85,7 +85,7 @@ const ClientBlogPage = ({ blogs }) => {
             >
               <div className="relative aspect-[3/2] w-full overflow-hidden">
                 <Image
-                  src={blog.image || "/images/dermatology-blog-placeholder.jpg"}
+                  src={blog.image || "/images/dermatology-blog-placeholder.webp"}
                   alt={blog.alt || blog.title}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

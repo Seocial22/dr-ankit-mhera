@@ -6,12 +6,12 @@ import StickyInsideContainer from '@/components/StickyInsideContainer';
 const data = {
   images: [
     {
-      src: "/images/home/young-beautiful-girl-lies-beautician-s-table-receives-procedures-scaled-qwlpr8v570ly32hd4hh19tk1zi61z4x4ivqz277fwg.jpg",
+      src: "/images/home/young-beautiful-girl-lies-beautician-s-table-receives-procedures-scaled.webp",
       alt: "Skin Rejuvenation 1",
       showOnMobile: true,
     },
     {
-      src: "/images/face_rejuvenatio.jpg",
+      src: "/images/face_rejuvenatio.webp",
       alt: "Skin Rejuvenation 2",
       showOnMobile: false,
     },
@@ -111,7 +111,7 @@ export const metadata = {
       "Restore youthful, radiant skin with advanced skin rejuvenation treatments in Ajmer. Effective solutions for wrinkles, fine lines, uneven texture, and pigmentation.",
     images: [
       {
-        url: "/images/skin-rejuvenation-treatment.jpg", // Replace with actual image path
+        url: "/images/skin-rejuvenation-treatment.webp", // Replace with actual image path
         width: 1200,
         height: 630,
         alt: "Skin Rejuvenation Treatment in Ajmer",
@@ -129,7 +129,7 @@ export const metadata = {
     title: "Skin Rejuvenation in Ajmer | Dr. Ankit Mehra",
     description:
       "Restore youthful, radiant skin with advanced skin rejuvenation treatments in Ajmer. Effective solutions for wrinkles, fine lines, uneven texture, and pigmentation.",
-    images: ["/images/skin-rejuvenation-treatment.jpg"], // Replace with actual path
+    images: ["/images/skin-rejuvenation-treatment.webp"], // Replace with actual path
   },
   robots: {
     index: true,

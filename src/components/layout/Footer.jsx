@@ -20,7 +20,7 @@ export default function Footer()
         <div  >
           <div className="flex items-center gap-2 ">
             <Image
-              src="/images/logo.jpeg"   // path in your /public folder
+              src="/images/logo.webp"   // path in your /public folder
               alt="Dr. Ankit Mehra Logo"
               width={80}
               height={80}

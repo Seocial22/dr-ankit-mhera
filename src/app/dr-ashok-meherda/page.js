@@ -23,7 +23,7 @@ export const metadata = {
       "Discover the expertise of Dr. Ashok Meherda in dermatology and aesthetic treatments. Dedicated to providing exceptional care and results.",
     images: [
       {
-        url: "/images/home/dr-ashok-meherda.jpg", // Replace with actual image URL
+        url: "/images/home/dr-ashok-meherda.webp", // Replace with actual image URL
         width: 1200,
         height: 630,
         alt: "Dr. Ashok Meherda - Dermatology Specialist in Ajmer",
@@ -41,7 +41,7 @@ export const metadata = {
     title: "Meet Dr. Ashok Meherda - Expert Dermatologist in Ajmer",
     description:
       "Discover the expertise of Dr. Ashok Meherda in dermatology and aesthetic treatments. Dedicated to providing exceptional care and results.",
-    images: ["/images/home/dr-ashok-meherda.jpg"], // Replace with actual path
+    images: ["/images/home/dr-ashok-meherda.webp"], // Replace with actual path
   },
   robots: {
     index: true,
@@ -72,7 +72,7 @@ const DoctorProfile = () => {
         <div className="bg-gray-100 p-6 flex flex-col items-center justify-center">
            
              <Image
-                      src="/images/home/ashok-meherda.jpeg" // Replace with actual image path
+                      src="/images/home/ashok-meherda.webp" // Replace with actual image path
                       alt="Dr. Ashok Meherda"
                       width={650}
                       height={650}

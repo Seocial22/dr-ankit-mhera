@@ -25,7 +25,7 @@ export const metadata = {
       "Get rid of acne and prevent future breakouts with targeted treatments. Best Acne Treatment in Ajmer at Dr. Ankit Mehra's clinic.",
     images: [
       {
-        url: "/images/person-dealing-with-rosacea-scaled.png", // replace with actual path
+        url: "/images/person-dealing-with-rosacea-scaled.webp", // replace with actual path
         width: 2560,
         height: 1706,
         alt: "Acne Treatment at Dr. Ankit Mehra's Clinic",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "Best Acne Treatment in Ajmer | Dr. Ankit Mehra (MD in Skin & VD)",
     description:
       "Get rid of acne and prevent future breakouts with targeted treatments. Best Acne Treatment in Ajmer at Dr. Ankit Mehra's clinic.",
-    images: ["/images/person-dealing-with-rosacea-scaled.png"], // replace with actual path
+    images: ["/images/person-dealing-with-rosacea-scaled.webp"], // replace with actual path
   },
   robots: {
     index: true,
@@ -71,12 +71,12 @@ const Acnetreatment = () =>
   const data = {
     images: [
       {
-        src: "/images/home/person-dealing-with-rosacea-scaled.png",
+        src: "/images/home/person-dealing-with-rosacea-scaled.webp",
         alt: "Acne Treatment 1",
         showOnMobile: true,
       },
       {
-        src: "/images/acne-scar-treatment-new.png",
+        src: "/images/acne-scar-treatment-new.webp",
         alt: "Acne Treatment 2",
         showOnMobile: false,
       },

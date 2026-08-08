@@ -43,7 +43,7 @@ export const metadata = {
       "Get advanced skin, hair, laser, and cosmetology treatments with Dr. Ankit Mehra, MD Skin & VD. Trusted by thousands of patients in Ajmer for dermatology and aesthetic care.",
     images: [
       {
-        url: "/images/home/dr-ankitmehra.jpeg", // Replace with actual image path
+        url: "/images/home/dr-ankitmehra.webp", // Replace with actual image path
         width: 800,
         height: 600,
         alt: "Dr. Ankit Mehra - Dermatologist in Ajmer",
@@ -61,7 +61,7 @@ export const metadata = {
     title: "Top Dermatologist in Ajmer | Dr. Ankit Mehra",
     description:
       "Expert skin, hair, and cosmetology treatments by Dr. Ankit Mehra (MD Skin & VD) in Ajmer.",
-    images: ["/images/dr-ankit-twitter-card.jpg"], // Replace with actual image path
+    images: ["/images/dr-ankit-twitter-card.webp"], // Replace with actual image path
   },
   robots: {
     index: true,
@@ -139,7 +139,7 @@ const structuredData = {
       name: "Dr. Ankit Mehra",
       image: {
         "@type": "ImageObject",
-        url: "https://drankitmehra.com/images/home/dr-ankitmehra.jpeg",
+        url: "https://drankitmehra.com/images/home/dr-ankitmehra.webp",
         width: 800,
         height: 600
       },
@@ -252,19 +252,19 @@ export default function Home() {
   const slides = [
     {
       id: 1,
-      image: '/images/home/woman-beauty-clinic-face-treatment-scaled.png',
+      image: '/images/home/woman-beauty-clinic-face-treatment-scaled.webp',
     },
     {
       id: 2,
-      image: '/images/home/doctor-performing-laser-hair-removal-patient-skin-scaled.png',
+      image: '/images/home/doctor-performing-laser-hair-removal-patient-skin-scaled.webp',
     },
     {
       id: 3,
-      image: '/images/home/person-dealing-with-rosacea-scaled.png',
+      image: '/images/home/person-dealing-with-rosacea-scaled.webp',
     },
     {
       id: 4,
-      image: '/images/home/head-leaning.png',
+      image: '/images/blogs/head-leaning.webp',
     },
   ];
 

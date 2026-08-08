@@ -183,7 +183,7 @@ const ContactPage = () => {
                     <div className="rounded-3xl overflow-hidden">
                       <div className="relative   w-full max-h-[500px]">
                        <Image
-                                           src="/images/home/dr-ankitmehra.jpeg" 
+                                           src="/images/home/dr-ankitmehra.webp" 
                                            alt="Dr. Ankit Mehra"
                                            className="w-full aspect-square object-cover border-8 border-[#F2C8A7] shadow-2xl transform transition-transform duration-500 rounded-3xl group-hover:scale-110"
                                            width={200}
@@ -275,7 +275,7 @@ const ContactPage = () => {
                       >
                         <div className="p-2 rounded-full mb-4 md:mb-0 md:mr-4 flex-shrink-0">
                           <Image
-                            src="/images/checkmark.png"
+                            src="/images/checkmark.webp"
                             alt="check icon"
                             width={25}
                             height={25}

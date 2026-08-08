@@ -14,7 +14,7 @@ const FloatingContactButtons = () =>
         aria-label="Chat on WhatsApp"
       >
         <Image
-          src="/images/home/whatsapp.png"
+          src="/images/home/whatsapp.webp"
           alt="WhatsApp"
           width={28}
           height={28}
@@ -29,7 +29,7 @@ const FloatingContactButtons = () =>
         aria-label="Call us"
       >
         <Image
-          src="/images/home/phone.png"
+          src="/images/home/phone.webp"
           alt="Phone"
           width={24}
           height={24}

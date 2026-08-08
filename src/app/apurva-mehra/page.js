@@ -22,7 +22,7 @@ export const metadata = {
       "Learn about Apurva Mehra's expertise in skin and hair treatments. Dedicated to providing personalized care and effective solutions.",
     images: [
       {
-        url: "/images/WhatsApp-Image-2024-11-12-at-10.27.40-1024x753.jpeg", // Replace with actual image path
+        url: "/images/WhatsApp-Image-2024-11-12-at-10.27.40-1024x753.webp", // Replace with actual image path
         width: 1200,
         height: 630,
         alt: "Apurva Mehra Skin and Hair Specialist in Ajmer",
@@ -40,7 +40,7 @@ export const metadata = {
     title: "Meet Apurva Mehra - Best Skin and Hair Specialist",
     description:
       "Learn about Apurva Mehra's expertise in skin and hair treatments. Dedicated to providing personalized care and effective solutions.",
-    images: ["/images/WhatsApp-Image-2024-11-12-at-10.27.40-1024x753.jpeg"], // Replace with actual path
+    images: ["/images/WhatsApp-Image-2024-11-12-at-10.27.40-1024x753.webp"], // Replace with actual path
   },
   robots: {
     index: true,
@@ -71,7 +71,7 @@ const DoctorProfile = () => {
         <div className="bg-gray-100 p-6 flex flex-col items-center justify-center">
            
              <Image
-                      src="/images/home/apurva-mehra.jpeg" // Replace with actual image path
+                      src="/images/home/apurva-mehra.webp" // Replace with actual image path
                       alt=""
                       width={650}
                       height={650}

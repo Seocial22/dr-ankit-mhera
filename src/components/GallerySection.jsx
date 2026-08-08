@@ -12,70 +12,70 @@ const GallerySection = () => {
   const galleryItems = [
     {
       id: 1,
-      src: "skin-care-awareness.png",
+      src: "skin-care-awareness.webp",
       alt: "Skin Care Awareness",
       title: "Skin Care Awareness",
       description: "Discover the importance of daily skin care for a healthy, glowing complexion."
     },
     {
       id: 2,
-      src: "hydra-facial-therapy.png",
+      src: "hydra-facial-therapy.webp",
       alt: "Hydra Facial Therapy",
       title: "Hydra Facial Therapy",
       description: "A deep cleansing treatment that hydrates and rejuvenates the skin."
     },
     {
       id: 3,
-      src: "prp-skin-treatment.png",
+      src: "prp-skin-treatment.webp",
       alt: "PRP Skin Treatment",
       title: "PRP Skin Treatment",
       description: "Advanced skin rejuvenation using platelet-rich plasma for natural healing."
     },
     {
       id: 4,
-      src: "acne-skin-concerns.png",
+      src: "acne-skin-concerns.webp",
       alt: "Acne & Skin Concerns",
       title: "Acne & Skin Concerns",
       description: "Personalized solutions to address acne, scars, and sensitive skin issues."
     },
     {
       id: 5,
-      src: "view-doctor-cosmetologist-doing-anti-aging-procedure-cosmetology-office-satisfied-woman.png",
+      src: "view-doctor-cosmetologist-doing-anti-aging-procedure-cosmetology-office-satisfied-woman.webp",
       alt: "Laser Skin Therapy",
       title: "Laser Skin Therapy",
       description: "Cutting-edge laser treatment for pigmentation, fine lines, and skin renewal."
     },
     {
       id: 6,
-      src: "facial-contouring-injection.png",
+      src: "facial-contouring-injection.webp",
       alt: "Facial Contouring Injection",
       title: "Facial Contouring Injection",
       description: "Non-surgical procedure to enhance facial features and restore youthful appearance."
     },
     {
       id: 7,
-      src: "woman-getting-hair-loss-treatment-clinic-1.png",
+      src: "woman-getting-hair-loss-treatment-clinic-1.webp",
       alt: "Hair PRP Treatment",
       title: "Hair PRP Treatment",
       description: "Advanced platelet-rich plasma therapy to strengthen hair roots and promote regrowth."
     },
     {
       id: 8,
-      src: "woman-beauty-clinic-face-treatment-scaled.png",
+      src: "woman-beauty-clinic-face-treatment-scaled.webp",
       alt: "Radiofrequency Facial",
       title: "Radiofrequency Facial",
       description: "Skin tightening treatment that boosts collagen for a firmer, youthful look."
     },
     {
       id: 9,
-      src: "head-leaning.png",
+      src: "head-leaning.webp",
       alt: "Mesotherapy Skin Rejuvenation",
       title: "Mesotherapy Skin Rejuvenation",
       description: "Micro-injections of vitamins and nutrients to refresh and brighten dull skin."
     },
     {
       id: 10,
-      src: "person-dealing-with-rosacea-scaled.png",
+      src: "person-dealing-with-rosacea-scaled.webp",
       alt: "Acne & Scar Treatment",
       title: "Acne & Scar Treatment",
       description: "Specialized care to reduce acne scars, pigmentation, and improve skin texture."

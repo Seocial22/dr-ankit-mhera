@@ -23,7 +23,7 @@ import ContactPage from "@/components/ContactPage";
       "Get in touch with Dr. Ankit Mehra's clinic for expert skin and hair treatments. Schedule your consultation today for personalized care.",
     images: [
       {
-        url: "/images/cropped-WhatsApp-Image-2024-11-02-at-20.46.06-1-192x192.jpeg", // Replace with actual contact page image
+        url: "/images/cropped-WhatsApp-Image-2024-11-02-at-20.46.06-1-192x192.webp", // Replace with actual contact page image
         width: 192,
         height: 192,
         alt: "Contact Dr. Ankit Mehra",
@@ -41,7 +41,7 @@ import ContactPage from "@/components/ContactPage";
     title: "Contact | Dr. Ankit Mehra - Book Your Appointment Today",
     description:
       "Get in touch with Dr. Ankit Mehra's clinic for expert skin and hair treatments. Schedule your consultation today for personalized care.",
-    images: ["/images/cropped-WhatsApp-Image-2024-11-02-at-20.46.06-1-192x192.jpeg"], // Replace with actual image
+    images: ["/images/cropped-WhatsApp-Image-2024-11-02-at-20.46.06-1-192x192.webp"], // Replace with actual image
   },
   robots: {
     index: true,

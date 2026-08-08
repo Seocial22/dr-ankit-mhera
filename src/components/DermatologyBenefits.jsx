@@ -87,7 +87,7 @@ const DermatologyBenefits = () => {
                         <BenefitItem
                             icon={
                                 <Image
-                                    src="/images/946369-removebg-preview.png"
+                                    src="/images/946369-removebg-preview.webp"
                                     alt="Expert Dermatologist"
                                     width={30}
                                     height={30}
@@ -101,7 +101,7 @@ const DermatologyBenefits = () => {
                         <BenefitItem
                             icon={
                                 <Image
-                                    src="/images/icon-benefit-2.png"
+                                    src="/images/icon-benefit-2.webp"
                                     alt="icon-benefit-2"
                                     width={30}
                                     height={30}
@@ -115,7 +115,7 @@ const DermatologyBenefits = () => {
                         <BenefitItem
                             icon={
                                 <Image
-                                    src="/images/personalized-treatments.png"
+                                    src="/images/personalized-treatments.webp"
                                     alt="personalized-treatments"
                                     width={30}
                                     height={30}
@@ -137,7 +137,7 @@ const DermatologyBenefits = () => {
                         variants={fadeInUp}
                     >
                         <img
-                            src="/images/our-benefit-image.jpg"
+                            src="/images/our-benefit-image.webp"
                             alt="Smiling woman"
                             style={{ display: 'block', width: '100%', height: '300px' }}
                         />
@@ -154,7 +154,7 @@ const DermatologyBenefits = () => {
                         <BenefitItem
                             icon={
                                 <Image
-                                    src="/images/icon-benefit-4.png"
+                                    src="/images/icon-benefit-4.webp"
                                     alt="icon-benefit-4"
                                     width={30}
                                     height={30}
@@ -168,7 +168,7 @@ const DermatologyBenefits = () => {
                         <BenefitItem
                             icon={
                                 <Image
-                                    src="/images/review1.png"
+                                    src="/images/review1.webp"
                                     alt="review1"
                                     width={30}
                                     height={30}
@@ -182,7 +182,7 @@ const DermatologyBenefits = () => {
                         <BenefitItem
                             icon={
                                 <Image
-                                    src="/images/icon-benefit-6.png"
+                                    src="/images/icon-benefit-6.webp"
                                     alt="icon-benefit-6"
                                     width={30}
                                     height={30}

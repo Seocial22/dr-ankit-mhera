@@ -23,7 +23,7 @@ export const metadata = {
       "Explore skin treatments for acne, pigmentation, scars, and more. Achieve healthy, glowing skin with expert care at Dr. Ankit Mehra's clinic.",
     images: [
       {
-        url: "/images/freepik__expand__4159-qwlpkxdugmq9yrcq0grvg0fqvkvxehzrlpoigcnrks.png", // Replace with actual image path
+        url: "/images/freepik__expand__4159-qwlpkxdugmq9yrcq0grvg0fqvkvxehzrlpoigcnrks.webp", // Replace with actual image path
         width: 1200,
         height: 630,
         alt: "Skin Treatments - Dr. Ankit Mehra",
@@ -42,7 +42,7 @@ export const metadata = {
     description:
       "Explore skin treatments for acne, pigmentation, scars, and more. Achieve healthy, glowing skin with expert care at Dr. Ankit Mehra's clinic.",
     images: [
-      "/images/freepik__expand__4159-qwlpkxdugmq9yrcq0grvg0fqvkvxehzrlpoigcnrks.png",
+      "/images/freepik__expand__4159-qwlpkxdugmq9yrcq0grvg0fqvkvxehzrlpoigcnrks.webp",
     ], // Replace with actual image path
   },
   robots: {
@@ -74,7 +74,7 @@ const SkinTreatmentsPage = () => {
       description:
         "Enhance your skin texture and radiance with advanced chemical peels and innovative treatments",
       image:
-        "young-beautiful-girl-lies-beautician-s-table-receives-procedures-scaled.png",
+        "young-beautiful-girl-lies-beautician-s-table-receives-procedures-scaled.webp",
       features: ["Chemical Peels", "Texture Improvement", "Radiance Boost"],
       url: "/skin-rejuvenation",
     },
@@ -83,7 +83,7 @@ const SkinTreatmentsPage = () => {
       title: "Anti-Aging Treatments",
       description:
         "Combat wrinkles and fine lines with cutting-edge laser therapies and age-defying solutions",
-      image: "head-leaning.png",
+      image: "head-leaning.webp",
       features: ["Laser Therapy", "Wrinkle Reduction", "Age Defying"],
       url: "/anti-aging-treatments",
     },
@@ -92,7 +92,7 @@ const SkinTreatmentsPage = () => {
       title: "Pigmentation Treatment",
       description:
         "Effectively treat dark spots and uneven skin tone with specialized chemical treatments",
-      image: "woman-beauty-clinic-face-treatment-scaled.png",
+      image: "woman-beauty-clinic-face-treatment-scaled.webp",
       features: ["Dark Spot Removal", "Even Tone", "Chemical Solutions"],
       url: "/pigmentation-treatment",
     },
@@ -102,7 +102,7 @@ const SkinTreatmentsPage = () => {
       description:
         "Minimize appearance of scars using advanced microneedling and targeted therapies",
       image:
-        "surgeon-drawing-lines-womans-abdomen-liposuction-cellulite-removal-scaled-qwlnjz4s1iv4w9bhzxk8xf5v50ge06dq8mxvl8tqho.jpg",
+        "surgeon-drawing-lines-womans-abdomen-liposuction-cellulite-removal-scaled-qwlnjz4s1iv4w9bhzxk8xf5v50ge06dq8mxvl8tqho.webp",
       features: ["Microneedling", "Scar Minimization", "Skin Renewal"],
       url: "/scar-reduction",
     },
@@ -111,7 +111,7 @@ const SkinTreatmentsPage = () => {
       title: "Acne Treatment",
       description:
         "Clear your skin with effective medications and specialized acne-fighting treatments",
-      image: "person-dealing-with-rosacea-scaled.png",
+      image: "person-dealing-with-rosacea-scaled.webp",
       features: ["Medication", "Acne Control", "Clear Skin"],
       url: "/acne-treatment",
     },

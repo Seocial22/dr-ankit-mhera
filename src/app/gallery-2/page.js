@@ -24,7 +24,7 @@ export const metadata = {
       "View stunning before-and-after results from real clients. See the transformative power of expert skin and hair treatments.",
     images: [
       {
-        url: "/images/2023-08-19-768x768.jpg", // Replace with actual gallery image path
+        url: "/images/2023-08-19-768x768.webp", // Replace with actual gallery image path
         width: 800,
         height: 800,
         alt: "Before and After Results - Dr. Ankit Mehra",
@@ -42,7 +42,7 @@ export const metadata = {
     title: "Before and After Gallery - Transformations | Dr. Ankit Mehra",
     description:
       "View stunning before-and-after results from real clients. See the transformative power of expert skin and hair treatments.",
-    images: ["/images/2023-08-19-768x768.jpg"], // Replace with actual image
+    images: ["/images/2023-08-19-768x768.webp"], // Replace with actual image
   },
   robots: {
     index: true,

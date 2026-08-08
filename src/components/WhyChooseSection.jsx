@@ -45,7 +45,7 @@ export default function WhyChooseSection() {
           variants={fadeInUp}
         >
           <img
-            src="/images/all-solutions.png"
+            src="/images/all-solutions.webp"
             alt="Dr. Ankit Mehra"
             className="rounded-3xl shadow-md"
           />

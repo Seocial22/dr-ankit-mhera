@@ -79,7 +79,7 @@ const AboutDoctorSection = () => {
               <div className="  p-8 md:p-12 flex flex-col items-center justify-center">
                 <div className="relative mb-6 group overflow-hidden rounded-lg max-w-sm mx-auto">
                   <Image
-                    src="/images/home/dr-ankitmehra.jpeg"
+                    src="/images/home/dr-ankitmehra.webp"
                     alt="Dr. Ankit Mehra"
                     className="w-full aspect-square object-cover border-8 border-[#F2C8A7] shadow-2xl transform transition-transform duration-500 group-hover:scale-110"
                     width={500}

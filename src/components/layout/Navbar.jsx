@@ -64,11 +64,16 @@ export default function Navbar() {
               <div className="flex items-center">
                 {/* Doctor logo image */}
                 <Image
-                  src="/images/logo.jpeg" // Update this path later
+                  src="/images/logo.webp"
                   alt="Dr. Ankit Mehra Logo"
                   width={60}
                   height={60}
-                  className="mr-2  "
+                  style={{
+                    width: "60px",
+                    height: "60px",
+                  }}
+                  className="mr-2"
+                  priority
                 />
                 <span className="text-2xl font-bold">
                   <span className="text-[#0055A4]">Dr. </span>
@@ -170,7 +175,7 @@ export default function Navbar() {
                       <div className="flex items-center">
                         {/* Use Image component for logo in mobile menu */}
                         <Image
-                          src="/images/logo.jpeg" // Make sure this path is correct
+                          src="/images/logo.webp" // Make sure this path is correct
                           alt="Dr. Ankit Mehra Logo"
                           width={40}
                           height={40}
@@ -243,7 +248,7 @@ export default function Navbar() {
                         >
                           <span>Skin Treatments</span>
                           <Image
-                            src="/images/chevron-down.png"
+                            src="/images/chevron-down.webp"
                             alt="Toggle Dropdown"
                             height={4}
                             width={4}
@@ -281,7 +286,7 @@ export default function Navbar() {
                         >
                           <span>Hair Treatments</span>
                           <Image
-                            src="/images/chevron-down.png"
+                            src="/images/chevron-down.webp"
                             alt="Toggle Dropdown"
                             className={`w-4 h-4 transition-transform duration-300 ${isHairOpen ? "rotate-180" : "rotate-0"}`}
                             width={16}
@@ -319,7 +324,7 @@ export default function Navbar() {
                         >
                           <span>Laser Treatments</span>
                           <Image
-                            src="/images/chevron-down.png"
+                            src="/images/chevron-down.webp"
                             alt="Toggle Dropdown"
                             className={`w-4 h-4 transition-transform duration-300 ${isHairOpen ? "rotate-180" : "rotate-0"}`}
                             width={16}

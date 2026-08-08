@@ -21,7 +21,7 @@ export const metadata = {
       "Learn about Dr. Ankit Mehra's expertise, team, and advanced treatments. Committed to providing exceptional care for your skin and hair.",
     images: [
       {
-        url: "/images/WhatsApp-Image-2024-11-22-at-10.36.42-e1746422645483.jpeg", // Replace with actual image path
+        url: "/images/WhatsApp-Image-2024-11-22-at-10.36.42-e1746422645483.webp", // Replace with actual image path
         width: 800,
         height: 600,
         alt: "Dr. Ankit Mehra - Dermatologist in Ajmer",
@@ -40,7 +40,7 @@ export const metadata = {
     description:
       "Learn about Dr. Ankit Mehra's expertise, team, and advanced treatments. Committed to providing exceptional care for your skin and hair.",
     images: [
-      "/images/WhatsApp-Image-2024-11-22-at-10.36.42-e1746422645483.jpeg",
+      "/images/WhatsApp-Image-2024-11-22-at-10.36.42-e1746422645483.webp",
     ], // Replace with actual image path
   },
   robots: {

@@ -25,7 +25,7 @@ export const metadata = {
       "Reverse signs of aging with customized anti-aging treatments. Reduce wrinkles, fine lines, and sagging skin for a refreshed look.",
     images: [
       {
-        url: "/images/freepik-export-20241105082539mxHQ-scaled.jpeg",
+        url: "/images/freepik-export-20241105082539mxHQ-scaled.webp",
         width: 2560,
         height: 1451,
         alt: "Anti-Aging Treatments - Dr. Ankit Mehra",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "Anti-Aging Treatments for Youthful Appearance | Dr. Ankit Mehra",
     description:
       "Reverse signs of aging with customized anti-aging treatments. Reduce wrinkles, fine lines, and sagging skin for a refreshed look.",
-    images: ["/images/freepik-export-20241105082539mxHQ-scaled.jpeg"],
+    images: ["/images/freepik-export-20241105082539mxHQ-scaled.webp"],
   },
   robots: {
     index: true,
@@ -71,12 +71,12 @@ const AntiAgingTreatmentComponent = () =>
   const data = {
     images: [
       {
-        src: "/images/home/head-leaning.png",
+        src: "/images/blogs/head-leaning.webp",
         alt: "anti-agingtreatment",
         showOnMobile: true,
       },
       {
-        src: "/images/anti-agingtreatment.jpg",
+        src: "/images/anti-agingtreatment.webp",
         alt: "anti-agingtreatment2",
         showOnMobile: false,
       },

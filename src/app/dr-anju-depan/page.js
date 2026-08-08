@@ -22,7 +22,7 @@ export const metadata = {
       "Consult Dr. Anju Depan, best gynecologist and obstetrician in Ajmer for pregnancy care, women’s health, infertility treatment, delivery, and expert gyne care.",
     images: [
       {
-        url: "/images/home/anju-depan.jpeg", // Replace with actual image path
+        url: "/images/home/anju-depan.webp", // Replace with actual image path
         width: 1200,
         height: 630,
         alt: "Dr. Anju Depan Gynecologist and Obstetrician in Ajmer",
@@ -40,7 +40,7 @@ export const metadata = {
     title: "Best Gynecologist and Obstetrician in Ajmer | Dr. Anju Depan",
     description:
       "Consult Dr. Anju Depan, best gynecologist and obstetrician in Ajmer for pregnancy care, women’s health, infertility treatment, delivery, and expert gyne care.",
-    images: ["/images/home/anju-depan.jpeg"], // Replace with actual path
+    images: ["/images/home/anju-depan.webp"], // Replace with actual path
   },
   robots: {
     index: true,
@@ -71,7 +71,7 @@ const DoctorProfile = () => {
         <div className="bg-gray-100 p-6 flex flex-col items-center justify-center">
            
              <Image
-                      src="/images/home/anju-depan.jpg" // Replace with actual image path
+                      src="/images/home/anju-depan.webp" // Replace with actual image path
                       alt=""
                       width={650}
                       height={650}

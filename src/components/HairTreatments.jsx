@@ -57,7 +57,7 @@ export default function HairTreatments() {
           aria-label="Toggle hair treatments dropdown"
         >
           <Image
-            src="/images/chevron-down.png"
+            src="/images/chevron-down.webp"
             alt="Toggle Dropdown"
             className={`w-4 h-4 transition-transform duration-300 ${
               isOpen ? "rotate-180" : "rotate-0"

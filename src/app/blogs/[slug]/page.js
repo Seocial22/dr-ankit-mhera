@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const SITE_URL = "https://drankitmehra.com";
 const PUBLISHER_NAME = "Dr. Ankit Mehra";
-const PUBLISHER_LOGO = "https://drankitmehra.com/images/logo.jpeg";
-const DEFAULT_IMAGE = "/images/placeholder.jpg";
+const PUBLISHER_LOGO = "https://drankitmehra.com/images/logo.webp";
+const DEFAULT_IMAGE = "/images/placeholder.webp";
 
 // Function to read blogs data
 function getBlogs() {
@@ -248,7 +248,7 @@ export default async function SingleBlogPage({ params }) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="relative mt-6 lg:mt-0 aspect-[3/2] w-full">
           <Image
-            src={blog.image || "/images/home/dermatologist-blog-hero.jpg"}
+            src={blog.image || "/images/home/dermatologist-blog-hero.webp"}
             alt={blog.alt || blog.title}
             fill
             priority

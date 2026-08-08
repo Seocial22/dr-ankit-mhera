@@ -25,7 +25,7 @@ export const metadata = {
       "Enhance your hairline and create a fuller look with scalp micropigmentation in Ajmer. Safe and effective treatment for thinning hair and baldness.",
     images: [
       {
-        url: "/images/mature-man-going-through-follicular-unit-extraction-process-1-1-1024x683.jpg",
+        url: "/images/mature-man-going-through-follicular-unit-extraction-process-1-1-1024x683.webp",
         width: 1200,
         height: 630,
         alt: "Scalp Micropigmentation Treatment",
@@ -44,7 +44,7 @@ export const metadata = {
     description:
       "Enhance your hairline and create a fuller look with scalp micropigmentation in Ajmer. Safe and effective treatment for thinning hair and baldness.",
     images: [
-      "/images/mature-man-going-through-follicular-unit-extraction-process-1-1-1024x683.jpg",
+      "/images/mature-man-going-through-follicular-unit-extraction-process-1-1-1024x683.webp",
     ],
   },
   robots: {
@@ -73,12 +73,12 @@ const ScalpMicropigmentation = () =>
   const data = {
     images: [
       {
-        src: "/images/home/mature-man-going-through-follicular-unit-extraction-process-1-1-1536x1024.jpg",
+        src: "/images/home/mature-man-going-through-follicular-unit-extraction-process-1-1-1536x1024.webp",
         alt: "Scalp Micropigmentation 1",
         showOnMobile: true,
       },
       {
-        src: "/images/organic-scalp-pigmentation.png",
+        src: "/images/organic-scalp-pigmentation.webp",
         alt: "Scalp Micropigmentation 2",
         showOnMobile: false,
       },

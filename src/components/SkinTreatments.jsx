@@ -58,7 +58,7 @@ export default function SkinTreatments() {
           aria-label="Toggle skin treatments dropdown"
         >
           <Image
-            src="/images/chevron-down.png"
+            src="/images/chevron-down.webp"
             alt="Toggle Dropdown"
             className={`w-4 h-4 transition-transform duration-300 ${
               isOpen ? "rotate-180" : "rotate-0"

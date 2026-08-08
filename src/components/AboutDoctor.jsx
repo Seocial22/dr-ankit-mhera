@@ -105,7 +105,7 @@ export default function AboutDoctor() {
               >
                 <div className="h-48 bg-gradient-to-r from-blue-100 to-indigo-100">
                   <Image
-                    src="/images/home/facial-contouring-injection.png"
+                    src="/images/home/facial-contouring-injection.webp"
                     alt="Skin Treatment"
                     className="w-full h-full object-cover"
                     width={500}
@@ -116,7 +116,7 @@ export default function AboutDoctor() {
                   <div className="flex items-center mb-4">
                     <div className="w-10 h-10 rounded-full flex items-center justify-center mr-4">
                       <Image
-                        src="/images/skin-care_4383086.png"
+                        src="/images/skin-care_4383086.webp"
                         alt="Hairstyle Icon"
                         width={100}
                         height={100}
@@ -215,7 +215,7 @@ export default function AboutDoctor() {
               >
                 <div className="h-48 bg-gradient-to-r from-blue-100 to-indigo-100">
                   <Image
-                    src="/images/home/woman-getting-hair-loss-treatment-clinic-1.png"
+                    src="/images/home/woman-getting-hair-loss-treatment-clinic-1.webp"
                     alt="Skin Treatment"
                     className="w-full h-full object-cover"
                     width={500}
@@ -226,7 +226,7 @@ export default function AboutDoctor() {
                   <div className="flex items-center mb-4">
                     <div className="w-10 h-10 rounded-full flex items-center justify-center mr-4">
                       <Image
-                        src="/images/hair_5498789.png"
+                        src="/images/hair_5498789.webp"
                         alt="Hairstyle Icon"
                         width={100}
                         height={100}
@@ -325,7 +325,7 @@ export default function AboutDoctor() {
               >
                 <div className="h-48 bg-gradient-to-r from-blue-100 to-indigo-100">
                   <Image
-                    src="/images/home/view-doctor-cosmetologist-doing-anti-aging-procedure-cosmetology-office-satisfied-woman.png"
+                    src="/images/home/view-doctor-cosmetologist-doing-anti-aging-procedure-cosmetology-office-satisfied-woman.webp"
                     alt="Skin Treatment"
                     className="w-full h-full object-cover"
                     width={500}
@@ -336,7 +336,7 @@ export default function AboutDoctor() {
                   <div className="flex items-center mb-4">
                     <div className="w-10 h-10 rounded-full flex items-center justify-center mr-4">
                       <Image
-                        src="/images/laser-surgery_2464617.png"
+                        src="/images/laser-surgery_2464617.webp"
                         alt="Hairstyle Icon"
                         width={100}
                         height={100}

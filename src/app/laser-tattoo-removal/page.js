@@ -25,7 +25,7 @@ export const metadata = {
       "Remove unwanted tattoos with advanced laser technology. Precise and effective treatment for all tattoo sizes and colors.",
     images: [
       {
-        url: "/images/2149445992-1024x683.jpg", // Replace with actual image path
+        url: "/images/2149445992-1024x683.webp", // Replace with actual image path
         width: 1200,
         height: 630,
         alt: "Laser Tattoo Removal Treatment in Ajmer",
@@ -43,7 +43,7 @@ export const metadata = {
     title: "Laser Tattoo Removal In Ajmer | Dr. Ankit Mehra",
     description:
       "Remove unwanted tattoos with advanced laser technology. Precise and effective treatment for all tattoo sizes and colors.",
-    images: ["/images/2149445992-1024x683.jpg"], // Replace with actual path
+    images: ["/images/2149445992-1024x683.webp"], // Replace with actual path
   },
   robots: {
     index: true,
@@ -71,12 +71,12 @@ const LaserTattooRemoval = () =>
   const data = {
     images: [
       {
-        src: "/images/home/laserTattooRemoval.jpg",
+        src: "/images/home/laserTattooRemoval.webp",
         alt: "Laser Tattoo Removal 1",
         showOnMobile: true,
       },
       {
-        src: "/images/unwanted-tattoo-2.jpg",
+        src: "/images/unwanted-tattoo-2.webp",
         alt: "Laser Tattoo Removal 2",
         showOnMobile: false,
       },
