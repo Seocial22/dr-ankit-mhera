@@ -14,6 +14,10 @@ export const metadata = {
     index: false,
     follow: false,
     nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
   },
   metadataBase: new URL('https://drankitmehra.com'),
 };
@@ -22,16 +26,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="robots" content="noindex, nofollow, noarchive" />
+        
+        
         <meta
             name="google-site-verification"
-            content="b0QyAvS2sbxXUZzO5BVowB1SlsN9ORDNGwlzsS_wCtg"e
+            content="b0QyAvS2sbxXUZzO5BVowB1SlsN9ORDNGwlzsS_wCtg"
         />
         <Script
          src="https://www.googletagmanager.com/gtag/js?id=G-HQMQMR889V"
-         strategy="afterInteractive"
+         strategy="lazyOnload"
        />
        
-       <Script id="google-analytics" strategy="afterInteractive">
+       <Script id="google-analytics" strategy="lazyOnload">
          {`
            window.dataLayer = window.dataLayer || [];
            function gtag(){dataLayer.push(arguments);}

@@ -44,20 +44,20 @@ const DermatologyBenefits = () => {
     return (
         <div className='flex justify-center bg-[#FEF7F8]'>
             <div className='max-w-7xl rounded-[40]' style={{ backgroundColor: '#bf7f62', color: 'white', padding: '40px 20px', fontFamily: "'Georgia', serif" }}>
-                <motion.div 
+                <motion.div
                     style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 40px' }}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: false, amount: 0.3 }}
                     variants={fadeInUp}
                 >
-                    <motion.h2 
+                    <motion.h2
                         style={{ fontSize: '3rem', margin: '0 0 20px' }}
                         variants={fadeInUp}
                     >
                         Exceptional dermatology, every step of the way
                     </motion.h2>
-                    <motion.p 
+                    <motion.p
                         style={{ fontSize: '1.15rem', fontWeight: '400', margin: '0' }}
                         variants={fadeInUp}
                     >
@@ -77,7 +77,7 @@ const DermatologyBenefits = () => {
                     }}
                 >
                     {/* Left Benefits */}
-                    <motion.div 
+                    <motion.div
                         style={{ flex: '1', minWidth: '250px' }}
                         initial="hidden"
                         whileInView="visible"
@@ -129,22 +129,33 @@ const DermatologyBenefits = () => {
                     </motion.div>
 
                     {/* Center Image */}
-                    <motion.div 
-                        style={{ borderRadius: '40%', overflow: 'hidden', minWidth: '220px', boxShadow: '0 0 20px rgba(0,0,0,0.2)' }}
+                    {/* Center Image */}
+                    <motion.div
+                        style={{
+                            borderRadius: '40%',
+                            overflow: 'hidden',
+                            minWidth: '220px',
+                            boxShadow: '0 0 20px rgba(0,0,0,0.2)',
+                            position: 'relative',
+                            width: '220px',
+                            height: '300px'
+                        }}
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: false, amount: 0.3 }}
                         variants={fadeInUp}
                     >
-                        <img
+                        <Image
                             src="/images/our-benefit-image.webp"
                             alt="Smiling woman"
-                            style={{ display: 'block', width: '100%', height: '300px' }}
+                            fill
+                            sizes="220px"
+                            style={{ objectFit: 'cover' }}
                         />
                     </motion.div>
 
                     {/* Right Benefits */}
-                    <motion.div 
+                    <motion.div
                         style={{ flex: '1', minWidth: '250px' }}
                         initial="hidden"
                         whileInView="visible"
@@ -202,7 +213,7 @@ const DermatologyBenefits = () => {
 
 const BenefitItem = ({ icon, title, description, variant }) => {
     return (
-        <motion.div 
+        <motion.div
             style={{ display: 'flex', alignItems: 'center', margin: '25px 0' }}
             variants={variant}
         >

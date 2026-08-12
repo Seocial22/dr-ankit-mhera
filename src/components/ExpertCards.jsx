@@ -84,7 +84,7 @@ const CardGrid = () => {
 
     return (
         <>
-            <motion.div 
+            <motion.div
                 className='flex justify-center text-[#B97E63]'
                 initial="hidden"
                 whileInView="visible"
@@ -93,13 +93,13 @@ const CardGrid = () => {
             >
                 <div style={{ padding: '40px 20px', fontFamily: "'Georgia', serif" }}>
                     <div style={{ textAlign: 'center', maxWidth: '900px', margin: '0 auto 40px' }}>
-                        <motion.h2 
+                        <motion.h2
                             style={{ fontSize: '3rem', margin: '0 0 20px' }}
                             variants={fadeInUp}
                         >
                             Our Expert Care Team
                         </motion.h2>
-                        <motion.p 
+                        <motion.p
                             style={{ fontSize: '1.15rem', fontWeight: '400', margin: '0' }}
                             variants={fadeInUp}
                         >
@@ -133,10 +133,12 @@ const CardGrid = () => {
                 ${activeCard === index ? '-translate-y-full' : 'translate-y-0 group-hover:-translate-y-full max-[768px]:group-hover:translate-y-0'}`}
                             >
                                 <div className="w-full h-full relative">
-                                    <img
+                                    <Image
                                         src={card.img}
                                         alt={card.title}
-                                        className="w-full h-full object-cover"
+                                        fill
+                                        sizes="(max-width: 768px) 350px, 320px"
+                                        className="object-cover"
                                     />
                                     <h3 className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/50 text-white px-4 py-1 rounded text-lg">
                                         {card.title}

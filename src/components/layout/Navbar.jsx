@@ -116,7 +116,7 @@ export default function Navbar() {
                 href="/blogs"
                 className="text-gray-700 font-medium hover:text-[#00796B] transition-colors"
               >
-                Blogs
+                Blog
               </Link>
               <Link
                 href="/gallery-2"

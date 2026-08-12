@@ -74,7 +74,7 @@ const PatientReviews = () => {
           animate={widgetInView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.5, duration: 0.8 }}
         >
-          <ElfsightWidget/>
+          {widgetInView && <ElfsightWidget/>}
         </motion.div>
       </motion.div>
 

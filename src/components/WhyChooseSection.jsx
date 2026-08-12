@@ -2,6 +2,7 @@
 import React from "react";
 import { FaRegHeart, FaStarOfDavid } from "react-icons/fa";
 import { motion } from 'framer-motion';
+import Image from "next/image";
 
 export default function WhyChooseSection() {
   const fadeInUp = {
@@ -37,29 +38,31 @@ export default function WhyChooseSection() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
         {/* Right Image (shows first on mobile, second on desktop) */}
-        <motion.div 
+        <motion.div
           className="flex justify-center order-1 md:order-2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.3 }}
           variants={fadeInUp}
         >
-          <img
+          <Image
             src="/images/all-solutions.webp"
             alt="Dr. Ankit Mehra"
+            width={600}
+            height={450}
             className="rounded-3xl shadow-md"
           />
         </motion.div>
 
         {/* Left Content */}
-        <motion.div 
+        <motion.div
           className="order-2 md:order-1"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.3 }}
           variants={staggerContainer}
         >
-          <motion.p 
+          <motion.p
             className="text-[#B77A5D] font-medium mb-2"
             variants={fadeInUp}
           >
@@ -74,7 +77,7 @@ export default function WhyChooseSection() {
           </motion.h2>
 
           {/* Highlights */}
-          <motion.div 
+          <motion.div
             className="space-y-6 text-gray-700"
             variants={fadeInUp}
           >
@@ -102,12 +105,12 @@ export default function WhyChooseSection() {
           </motion.div>
 
           {/* Cards */}
-          <motion.div 
+          <motion.div
             className="mt-10 space-y-0 sm:space-y-8"
             variants={staggerContainer}
           >
             {/* Card 1 */}
-            <motion.div 
+            <motion.div
               className="flex flex-col sm:flex-row items-start gap-4 border-t pt-6"
               variants={cardVariant}
             >
@@ -128,7 +131,7 @@ export default function WhyChooseSection() {
             </motion.div>
 
             {/* Card 2 */}
-            <motion.div 
+            <motion.div
               className="flex flex-col sm:flex-row items-start gap-4 border-t pt-6"
               variants={cardVariant}
             >
