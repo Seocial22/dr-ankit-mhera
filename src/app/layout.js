@@ -10,6 +10,7 @@ import NewYearPopup from "@/components/NewYearPopup";
 
 
 export const metadata = {
+
   robots: {
     index: false,
     follow: false,
@@ -20,6 +21,11 @@ export const metadata = {
     },
   },
   metadataBase: new URL('https://drankitmehra.com'),
+  robots: {
+    index: false,
+    follow: false,
+  },
+
 };
 
 export default function RootLayout({ children }) {
