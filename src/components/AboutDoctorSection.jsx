@@ -84,6 +84,7 @@ const AboutDoctorSection = () => {
                     className="w-full aspect-square object-cover border-8 border-[#F2C8A7] shadow-2xl transform transition-transform duration-500 group-hover:scale-110"
                     width={500}
                     height={500}
+                    sizes="(max-width: 768px) 100vw, 500px"
                   />
                 </div>
 

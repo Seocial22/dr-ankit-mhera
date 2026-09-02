@@ -159,6 +159,7 @@ const CardGrid = () => {
                                             e.stopPropagation();
                                             setActiveCard(null);
                                         }}
+                                        aria-label={`Close ${card.title} details`}
                                         initial={{ scale: 0 }}
                                         animate={{ scale: 1 }}
                                         transition={{ duration: 0.3 }}
@@ -184,6 +185,7 @@ const CardGrid = () => {
                                 {/* Button */}
                                 <Link
                                     href={card.url}
+                                    aria-label={`Read more about ${card.title}`}
                                     className="mt-4 inline-block border border-gray-800 px-4 py-2 rounded-lg font-semibold text-gray-800 hover:bg-[#5A4232] hover:text-white transition-colors duration-300 text-sm"
                                 >
                                     Read More

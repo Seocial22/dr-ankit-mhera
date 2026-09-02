@@ -50,6 +50,7 @@ export default function WhyChooseSection() {
             alt="Dr. Ankit Mehra"
             width={600}
             height={450}
+            sizes="(max-width: 768px) 100vw, 600px"
             className="rounded-3xl shadow-md"
           />
         </motion.div>

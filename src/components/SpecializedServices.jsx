@@ -119,6 +119,7 @@ const SpecializedServices = () =>
                 <p className="text-sm mb-4 flex-grow">{item.text}</p>
                 <Link
                   href={item.url}
+                  aria-label={`Read more about ${item.title}`}
                   className="  w-fit text-[#684E39] font-bold  rounded px-2 py-1 text-sm hover:bg-sky-600 hover:text-white transition"
                 >
                   Read more &#8811;
@@ -133,6 +134,7 @@ const SpecializedServices = () =>
             <button
               className="bg-[#FEF7F8] text-[#BF7F62] border border-[#BF7F62] rounded-md px-6 py-2 hover:bg-[#BF7F62] hover:text-white transition"
               onClick={() => setShowAll(!showAll)}
+              aria-label={showAll ? 'View Less Services' : 'View More Services'}
             >
               {showAll ? 'View Less Services' : 'View More Services'}
             </button>
@@ -172,6 +174,7 @@ const SpecializedServices = () =>
                 </p>
                 <Link
                   href={item.url}
+                  aria-label={`Read more about ${item.title}`}
                   className="   w-fit  text-[#684E39] font-bold rounded px-2 py-1 text-sm   transition"
                 >
                   <span className='hover:text-gray-900'>

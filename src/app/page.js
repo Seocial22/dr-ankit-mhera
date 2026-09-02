@@ -1,21 +1,14 @@
-import AboutDoctor from "@/components/AboutDoctor";
-import AboutDoctorSection from "@/components/AboutDoctorSection";
-import ExpertCards from "@/components/ExpertCards";
-
-
-import DermatologyBenefits from "@/components/DermatologyBenefits";
-
-
-
-
-import GallerySection from "@/components/GallerySection";
-
+import dynamic from "next/dynamic";
 import HeroSection from "@/components/HeroSection";
-import PatientReviews from "@/components/PatientReviews";
+import AboutDoctorSection from "@/components/AboutDoctorSection";
+import AboutDoctor from "@/components/AboutDoctor";
 
+const ExpertCards = dynamic(() => import("@/components/ExpertCards"));
+const DermatologyBenefits = dynamic(() => import("@/components/DermatologyBenefits"));
+const WhyChooseSection = dynamic(() => import("@/components/WhyChooseSection"));
+const PatientReviews = dynamic(() => import("@/components/PatientReviews"));
+const GallerySection = dynamic(() => import("@/components/GallerySection"));
 
-
-import WhyChooseSection from "@/components/WhyChooseSection";
 
 export const metadata = {
   title: "Best Dermatologist in Ajmer | Dr. Ankit Mehra",

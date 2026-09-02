@@ -1,5 +1,6 @@
 User-agent: *
-Disallow: /
-
+Allow: /
+Disallow: /private/
+Disallow: /admin/
 
 Sitemap: https://drankitmehra.com/sitemap.xml

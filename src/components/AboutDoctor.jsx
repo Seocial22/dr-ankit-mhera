@@ -110,6 +110,7 @@ export default function AboutDoctor() {
                     className="w-full h-full object-cover"
                     width={500}
                     height={500}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
                   />
                 </div>
                 <div className="p-6">
@@ -186,8 +187,8 @@ export default function AboutDoctor() {
                       Expert Dermatological Care
                     </li>
                   </ul>
-                  <Link href={"/skin-treatments"}>
-                    <button className="text-blue-600 font-semibold flex items-center hover:text-blue-800 transition-colors duration-300">
+                  <Link href={"/skin-treatments"} aria-label="Read more about Skin Treatments">
+                    <button aria-label="Read more about Skin Treatments" className="text-blue-600 font-semibold flex items-center hover:text-blue-800 transition-colors duration-300">
                       Read More
                       <svg
                         className="w-4 h-4 ml-1"
@@ -216,10 +217,11 @@ export default function AboutDoctor() {
                 <div className="h-48 bg-gradient-to-r from-blue-100 to-indigo-100">
                   <Image
                     src="/images/home/woman-getting-hair-loss-treatment-clinic-1.webp"
-                    alt="Skin Treatment"
+                    alt="Hair Treatment"
                     className="w-full h-full object-cover"
                     width={500}
                     height={500}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
                   />
                 </div>
                 <div className="p-6">
@@ -296,8 +298,8 @@ export default function AboutDoctor() {
                       Hair Fall Control Treatments
                     </li>
                   </ul>
-                  <Link href={"/hair-treatments-2"}>
-                    <button className="text-purple-600 font-semibold flex items-center hover:text-purple-800 transition-colors duration-300">
+                  <Link href={"/hair-treatments-2"} aria-label="Read more about Hair Treatments">
+                    <button aria-label="Read more about Hair Treatments" className="text-purple-600 font-semibold flex items-center hover:text-purple-800 transition-colors duration-300">
                       Read More
                       <svg
                         className="w-4 h-4 ml-1"
@@ -326,10 +328,11 @@ export default function AboutDoctor() {
                 <div className="h-48 bg-gradient-to-r from-blue-100 to-indigo-100">
                   <Image
                     src="/images/home/view-doctor-cosmetologist-doing-anti-aging-procedure-cosmetology-office-satisfied-woman.webp"
-                    alt="Skin Treatment"
+                    alt="Laser Treatment"
                     className="w-full h-full object-cover"
                     width={500}
                     height={500}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
                   />
                 </div>
                 <div className="p-6">
@@ -390,8 +393,8 @@ export default function AboutDoctor() {
                       Laser Treatment for Acne Scars
                     </li>
                   </ul>
-                  <Link href={"/laser-treatments"}>
-                    <button className="text-red-600 font-semibold flex items-center hover:text-red-800 transition-colors duration-300">
+                  <Link href={"/laser-treatments"} aria-label="Read more about Laser Treatments">
+                    <button aria-label="Read more about Laser Treatments" className="text-red-600 font-semibold flex items-center hover:text-red-800 transition-colors duration-300">
                       Read More
                       <svg
                         className="w-4 h-4 ml-1"
@@ -425,8 +428,9 @@ export default function AboutDoctor() {
           viewport={{ once: false, amount: 0.3 }}
           variants={fadeInUp}
         >
-          <Link href={"/bookconsultation"}>
+          <Link href={"/bookconsultation"} aria-label="Book Your Consultation with Dr. Ankit Mehra">
             <motion.button 
+              aria-label="Book Your Consultation with Dr. Ankit Mehra"
               className="bg-[#FAF2F0] border-[#BF7F62] border hover:text-white hover:bg-[#BF7F62] font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-lg"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

@@ -138,6 +138,7 @@ export default function Navbar() {
             className="md:hidden text-gray-800 p-1 rounded-md focus:outline-none"
             onClick={toggleMenu}
             whileTap={{ scale: 0.9 }}
+            aria-label="Open mobile menu"
           >
             <Menu size={26} />
           </motion.button>
@@ -192,6 +193,7 @@ export default function Navbar() {
                     onClick={toggleMenu}
                     whileTap={{ scale: 0.9 }}
                     className="text-gray-800 p-1 rounded-md hover:bg-gray-100"
+                    aria-label="Close mobile menu"
                   >
                     <X size={24} />
                   </motion.button>

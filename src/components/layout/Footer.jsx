@@ -104,11 +104,11 @@ export default function Footer()
         <div>
           <h3 className="text-lg font-semibold mb-3">Quick Link</h3>
           <ul className="flex flex-col gap-3 text-sm">
-           <Link href={'/'} ><li>Home</li> </Link>
-            <Link href={'/about-us'}>  <li>About Us</li></Link>
-            <Link href={'/blogs'}> <li>Blog</li></Link>
-            <Link href={'/gallery-2'}> <li>Gallery</li></Link >
-            <Link href={'/contact-us'} ><li>Contact Us</li></Link >
+            <li><Link href={'/'} className="hover:underline">Home</Link></li>
+            <li><Link href={'/about-us'} className="hover:underline">About Us</Link></li>
+            <li><Link href={'/blogs'} className="hover:underline">Blog</Link></li>
+            <li><Link href={'/gallery-2'} className="hover:underline">Gallery</Link></li>
+            <li><Link href={'/contact-us'} className="hover:underline">Contact Us</Link></li>
           </ul>
         </div>
       </div>
@@ -119,25 +119,27 @@ export default function Footer()
           Copyright © {new Date().getFullYear()} All Rights Reserved.
         </p>
 
-        <div>Powered by <Link target="_blank" href={'https://seocialmedia.in/'} > <span className="hover:underline cursor-pointer">SEOcial Media Solutions</span></Link>
+        <div>Powered by <Link target="_blank" href={'https://seocialmedia.in/'} aria-label="SEOcial Media Solutions" > <span className="hover:underline cursor-pointer">SEOcial Media Solutions</span></Link>
 
 </div>
         <div className="flex items-center space-x-3 mt-4 md:mt-0">
           <p className="text-sm">Follow Us On Social</p>
           <div className="flex space-x-3">
-            <Link
+            <a
               href="https://www.facebook.com/drankitmeherda"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#b97a57] p-2 rounded"
+              className="bg-white text-[#b97a57] p-2 rounded hover:opacity-90 transition-opacity"
+              aria-label="Visit Dr. Ankit Mehra on Facebook"
             >
               <FaFacebookF />
-            </Link>
+            </a>
             <a
               href="https://www.instagram.com/drankitmehra/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#b97a57] p-2 rounded"
+              className="bg-white text-[#b97a57] p-2 rounded hover:opacity-90 transition-opacity"
+              aria-label="Visit Dr. Ankit Mehra on Instagram"
             >
               <FaInstagram />
             </a>
@@ -149,3 +151,4 @@ export default function Footer()
     </footer>
   );
 }
+
