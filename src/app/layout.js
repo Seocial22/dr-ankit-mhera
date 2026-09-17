@@ -31,10 +31,7 @@ export default function RootLayout({ children }) {
 
         
         
-        <meta
-            name="google-site-verification"
-            content="b0QyAvS2sbxXUZzO5BVowB1SlsN9ORDNGwlzsS_wCtg"
-        />
+       <meta name="google-site-verification" content="IZ0kz_nMIEdjMwn1TM9Ah8Lgr05P7foACcoAFHc_sNU" />
         <Script
          src="https://www.googletagmanager.com/gtag/js?id=G-HQMQMR889V"
          strategy="lazyOnload"
